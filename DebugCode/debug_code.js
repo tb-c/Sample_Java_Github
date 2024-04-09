@@ -5,6 +5,7 @@ let num2 = parseInt(document.getElementById('input2').value);
 // Check if inputs are valid numbers
 if (!isNaN(num1) && !isNaN(num2)) {
 // Perform the operation
+// Pratice task : use the same function to not only do multiplcation but simultanesouly do addtion and division along with it. 
                 let result = arithmetic(num1, num2);
 
                 // Display the result
